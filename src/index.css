@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Jost', sans-serif;
+}
+
+/* Header section */
+
+.header {
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  background: blueviolet;
+  font-size: 2.7rem;
+  padding: 1rem 0;
+}
+
+.inputHolder {
+  margin-top: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.uploadInput { 
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.uploadImage {
+  padding: 1rem 1.8rem;
+  font-size: 2rem;
+  background: #333;
+  color: #fff;
+  display: inline-block;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.buttonz {
+  padding: 1rem 1.8rem;
+  font-size: 2rem;
+  background: darkred;
+  color: #fff;
+  display: inline-block;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  margin-left: 5rem;
+}
+
+/* Image section */
+
+.mainWrapper {
+  padding: 0 10px;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* margin-bottom: 10px; */
+}
+
+.imageHolder {
+  width: 60%;
+  display: block;
+  flex: 0 0 60%;
+  max-width: 900px;
+  height: 70vmin;
+}
+
+.imageHolder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.resultsHolder {
+  padding: 50px;
+}
+
+.result {
+  border: 1px solid #333;
+  border-color: #333;
+  background-color: #333;
+  margin: 0 10px;
+  margin-left: 5rem;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+}
+
+.name {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
